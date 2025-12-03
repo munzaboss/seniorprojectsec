@@ -589,7 +589,7 @@ function PasswordGeneratorAndCheckerTool() {
                           type="password"
                           value={inputPassword}
                           onChange={(e) => setInputPassword(e.target.value)}
-                          placeholder="Enter your password..."
+                          placeholder="Enter your password"
                           disabled={isChecking}
                           className="w-full bg-black/60 border border-cyan-500/50 rounded-md p-4 text-cyan-100 font-mono focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20 focus:outline-none resize-none black-text-textarea"
                           style={{
